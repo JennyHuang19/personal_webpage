@@ -40,7 +40,7 @@ sections:
     content:
       title: Biography
       # JYH OLA
-      username: admin
+      username: JYH OLA
   - block: features
     content:
       title: Skills
