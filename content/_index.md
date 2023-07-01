@@ -41,23 +41,33 @@ sections:
       title: Biography
       # JYH OLA
       username: JYH OLA
+  - block: collection
+    id: featured
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+    design:
+      columns: '2'
+      view: citation
   - block: features
     content:
       title: Skills
       items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
+        - name: Python
           description: 100%
           icon: chart-line
           icon_pack: fas
+        - name: R
+          description: 4 years
+          icon: r-project
+          icon_pack: fab
         - name: Photography
           description: 10%
           icon: camera-retro
           icon_pack: fas
-  - block: experience
+  - block: Experiences
     content:
       title: Experience
       # Date format for experience
